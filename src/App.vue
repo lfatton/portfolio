@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PageHeader />
+  <main>
+    <RouterView />
+  </main>
+  <PageFooter />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import PageHeader from "@/components/PageHeader";
+import PageFooter from "@/components/PageFooter";
 </script>
 
-<style>
+<style lang="less">
+@import "assets/theme/colors";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: @primary-text-color;
+  background-color: @primary-background-color;
+  width: 70%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  main {
+    flex-grow: 1;
+  }
+
+  > main, footer, header {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
 </style>

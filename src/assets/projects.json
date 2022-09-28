@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "type": "game",
+    "setting": "42 School Project",
+    "name": "Doom-Nukem",
+    "language": "C84 / SDL2",
+    "description": "A project recreating a game engine based on a mix of Doom and Quake engines using C and the SDL2, consisting of 2 parts, a game map editor. The game in itself is a FPS where you have to shoot with an array of different weapons on enemies (driving scooters!) that shoot at you in return. The big boss is a black hole, depleting your health without even touching you. The closer you get to it, the faster your health drops (duh), and losing health means also randomly losing pixels on your screen. You may even be forced to give the finger to flowers for some health back and clear the screen!",
+    "video": "https://www.youtube.com/embed/Rt0gt9E8iJc",
+    "url": "https://github.com/MattDirty/doom_nukem",
+    "images": [
+      {
+        "id": "1",
+        "name":"doom-nukem-editor"
+      },
+      {
+        "id": "2",
+        "name":"doom-nukem-engine"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "game",
+    "setting": "Epic Game Jam 2019",
+    "name": "MoonWalker",
+    "language": "JavaScript / PixiJS",
+    "description": "Made during the 2019 Epic Game Jam, this rhythmic rogue like game is loosely inspired by the tale of Sisyphus. You play a bird pushing the moon in rhythm up a mountain. The higher you go the richer you become, allowing you to buy funky bonuses every time you die so that you can try to go all the way up (spoiler: not gonna happen).",
+    "video": "https://www.youtube.com/embed/P-IKM2WAviA",
+    "url": "https://www.epicgamejam.com/games/moonwalker",
+    "images": [
+      {
+        "id": "1",
+        "name": "moonwalker"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "type": "game",
+    "setting": "Epic Game Jam 2021",
+    "name": "Trombi",
+    "language": "JavaScript / PixiJS",
+    "description": "Made during the 2021 Epic Game Jam, this bullet hell is set in an office. You embody a tie, with either the default pattern or a pattern based on a screenshot from your webcam, and try to work you way up to the final boss, who may or may not have been based on <a href=\"https://en.wikipedia.org/wiki/Office_Assistant\" target=\"_blank\">Word Office Assistant Clippy</a>.",
+    "video": "https://www.youtube.com/embed/YLVJnlIoV3I",
+    "url": "https://www.epicgamejam.com/games/trombi",
+    "images": [
+      {
+        "id": "1",
+        "name":"trombi1"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "graphical",
+    "setting": "42 School Project",
+    "name": "Fractol",
+    "language": "C84 / MiniLibX",
+    "description": "A project calculating and rendering several different fractals (Mandelbrot, Julia, etc.), allowing the user to navigates through and into them.",
+    "url": "https://github.com/lfatton/Fractol",
+    "images": [
+      {
+        "id": "1",
+        "name":"fractol1"
+      },
+      {
+        "id": "2",
+        "name":"fractol2"
+      },
+      {
+        "id": "3",
+        "name":"fractol3"
+      },
+      {
+        "id": "4",
+        "name":"fractol4"
+      }
+    ]
+  }
+]
