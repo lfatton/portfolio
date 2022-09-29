@@ -5,17 +5,28 @@
     "setting": "42 School Project",
     "name": "Doom-Nukem",
     "language": "C84 / SDL2",
-    "description": "A project recreating a game engine based on a mix of Doom and Quake engines using C and the SDL2, consisting of 2 parts, a game map editor. The game in itself is a FPS where you have to shoot with an array of different weapons on enemies (driving scooters!) that shoot at you in return. The big boss is a black hole, depleting your health without even touching you. The closer you get to it, the faster your health drops (duh), and losing health means also randomly losing pixels on your screen. You may even be forced to give the finger to flowers for some health back and clear the screen!",
+    "summary": "A project recreating a game engine based on a mix of Doom and Quake (Duke Nukem) engines, consisting of 2 parts, a game map editor and the game engine.",
+    "description": "The map editor allows you to create and customise maps. You can add enemies (with custom health and height), weapons and objects. Change the floor, wall or ceiling textures. Decide you're better off without a ceiling after all. Change walls into windows, move them, change them back again into walls to finally split them in the middle. You also add unlimited sectors to your map to try and put some space between you and the big boss (though it will still be able to reach you!).<br /><br />The game in itself is an FPS where you have to shoot with an array of different weapons on enemies (driving scooters!) that shoot at you in return. The big boss is a black hole, depleting your health without even touching you. The closer you get to it, the faster your health drops (duh), and losing health means also randomly losing pixels on your screen. You may even be forced to give the finger to flowers for some health back and clear the screen!<br /><br />The assets (including sound effects) used in the game were either free assets or created by the team. As the team consisted only of 4 devs who makes poor pixel artists, the design of the game can be a bit rough around the edges. We still had a lot of fun doing those and it helped us take a break when the coding part of the project was becoming too intense.",
+    "details": [
+      {
+        "id": "1",
+        "text": "started with 2 devs, ended 6 months later with 2 more devs joining us during"
+      },
+      {
+        "id": "2",
+        "text": "worked on the raycasting engine, HUD, gameplay mechanics & map editor"
+      }
+    ],
     "video": "https://www.youtube.com/embed/Rt0gt9E8iJc",
     "url": "https://github.com/MattDirty/doom_nukem",
     "images": [
       {
         "id": "1",
-        "name":"doom-nukem-editor"
+        "name": "doom-nukem-editor"
       },
       {
         "id": "2",
-        "name":"doom-nukem-engine"
+        "name": "doom-nukem-engine"
       }
     ]
   },
@@ -25,7 +36,17 @@
     "setting": "Epic Game Jam 2019",
     "name": "MoonWalker",
     "language": "JavaScript / PixiJS",
-    "description": "Made during the 2019 Epic Game Jam, this rhythmic rogue like game is loosely inspired by the tale of Sisyphus. You play a bird pushing the moon in rhythm up a mountain. The higher you go the richer you become, allowing you to buy funky bonuses every time you die so that you can try to go all the way up (spoiler: not gonna happen).",
+    "description": "This rhythmic rogue like game is loosely inspired by the tale of Sisyphus. You play a bird pushing the moon in rhythm up a mountain. The higher you go the richer you become, allowing you to buy funky bonuses every time you die so that you can try to go all the way up (spoiler: not happening anytime soon).",
+    "details": [
+      {
+        "id": "1",
+        "text": "made in 2 days with a team of 5 people (3 devs & 1 game artist & 1 musician)"
+      },
+      {
+        "id": "2",
+        "text": "principally handled the bird's mouvements & HUD"
+      }
+    ],
     "video": "https://www.youtube.com/embed/P-IKM2WAviA",
     "url": "https://www.epicgamejam.com/games/moonwalker",
     "images": [
@@ -41,13 +62,23 @@
     "setting": "Epic Game Jam 2021",
     "name": "Trombi",
     "language": "JavaScript / PixiJS",
-    "description": "Made during the 2021 Epic Game Jam, this bullet hell is set in an office. You embody a tie, with either the default pattern or a pattern based on a screenshot from your webcam, and try to work you way up to the final boss, who may or may not have been based on <a href=\"https://en.wikipedia.org/wiki/Office_Assistant\" target=\"_blank\">Word Office Assistant Clippy</a>.",
+    "description": "This bullet hell is set in an office. You embody a tie, with either the default pattern or a pattern based on a screenshot from your webcam, and try to work you way up to the final boss, who may or may not have been based on <a href=\"https://en.wikipedia.org/wiki/Office_Assistant\" target=\"_blank\">Word Office Assistant Clippy</a>.",
+    "details": [
+      {
+        "id": "1",
+        "text": "made in 2 days with a team of 6 people (5 devs & 1 game artist)"
+      },
+      {
+        "id": "2",
+        "text": "mainly worked on gameplay mechanics"
+      }
+    ],
     "video": "https://www.youtube.com/embed/YLVJnlIoV3I",
     "url": "https://www.epicgamejam.com/games/trombi",
     "images": [
       {
         "id": "1",
-        "name":"trombi1"
+        "name": "trombi1"
       }
     ]
   },
@@ -57,24 +88,38 @@
     "setting": "42 School Project",
     "name": "Fractol",
     "language": "C84 / MiniLibX",
-    "description": "A project calculating and rendering several different fractals (Mandelbrot, Julia, etc.), allowing the user to navigates through and into them.",
+    "description": "A graphical project computing and rendering several different fractals (Mandelbrot, Julia, etc.), allowing the user to navigates through and into them. As the calculations to display the fractals are quite complex (no puns intended), the resulting program is quite heavy on the CPU (despite multi-threading) and could honestly use more optimisation. Still it's quite nice playing with the shapes and colours of the different fractals, you can spend hours trying to find the prettiest pattern and colour combination.",
+    "details": [
+      {
+        "id": "1",
+        "text": "developed alone in approximately 1 month"
+      },
+      {
+        "id": "2",
+        "text": "the maths were intense but very rewarding"
+      },
+      {
+        "id": "3",
+        "text": "used CPU multithreading to boost performance"
+      }
+    ],
     "url": "https://github.com/lfatton/Fractol",
     "images": [
       {
         "id": "1",
-        "name":"fractol1"
+        "name": "fractol1"
       },
       {
         "id": "2",
-        "name":"fractol2"
+        "name": "fractol2"
       },
       {
         "id": "3",
-        "name":"fractol3"
+        "name": "fractol3"
       },
       {
         "id": "4",
-        "name":"fractol4"
+        "name": "fractol4"
       }
     ]
   }

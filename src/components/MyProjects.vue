@@ -8,19 +8,18 @@
       -
       <span class="setting">
             {{ project.setting }}
-          </span>
+      </span>
     </h2>
     <div class="languages-used">
       {{ project.language }}
     </div>
-    <div class="description" v-html="project.description"/>
-    <MediaLoader :project="project"/>
+    <ProjectContentLoader :project="project"/>
   </div>
 </template>
 
 <script setup>
 import projectsData from "@/assets/projects.json"
-import MediaLoader from "@/components/MediaLoader";
+import ProjectContentLoader from "@/components/ProjectContentLoader";
 
 const projects = projectsData
 
@@ -40,9 +39,7 @@ const projects = projectsData
     padding-top: 0.5%;
   }
 
-  .description {
-    padding: 3% 0;
-  }
+
 
   &:first-of-type {
     padding-top: 0;
@@ -52,6 +49,4 @@ const projects = projectsData
     border-bottom: none;
   }
 }
-
-
 </style>
