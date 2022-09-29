@@ -9,8 +9,8 @@
     <a class="linkedin" href="https://www.linkedin.com/in/louise-fatton" target="_blank">
       <font-awesome-icon icon="fa-brands fa-linkedin" size="xl" />
     </a>
-    <a class="twitter" href="https://twitter.com/basdechapon" target="_blank">
-      <font-awesome-icon icon="fa-brands fa-square-twitter" size="xl" />
+    <a class="instagram" href="https://www.instagram.com/basdechapon/" target="_blank">
+      <font-awesome-icon icon="fa-brands fa-square-instagram" size="xl" />
     </a>
   </footer>
 </template>
