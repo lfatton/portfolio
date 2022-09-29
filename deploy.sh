@@ -8,6 +8,7 @@ npm run build
 
 cd dist
 git init
+git branch -m main
 git add -A
 git commit -m 'deploy'
 git push -f git@github.com:lfatton/lfatton.github.io.git main
