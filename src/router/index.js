@@ -3,7 +3,7 @@ import HomePage from "../views/HomePage"
 import AboutMe from "../views/AboutMe"
 
 const routes = [
-    { path: "/", component: HomePage },
+    { path: "/portfolio", component: HomePage },
     { path: "/AboutMe", component: AboutMe }
 ]
 
