@@ -20,7 +20,7 @@ import PageFooter from "@/components/PageFooter";
   -moz-osx-font-smoothing: grayscale;
   color: @text-color;
   background-color: @primary-background-color;
-  width: 50%;
+  width: 210mm;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;

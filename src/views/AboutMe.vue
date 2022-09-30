@@ -8,7 +8,6 @@
       <p>
         Hi and welcome 💫
       </p>
-      <br/>
       <p>
         I’m Louise (she/her) and I have been interested in computer science ever since I took an extra credit class
         learning
@@ -17,7 +16,6 @@
         of
         one day creating video games that make people feel ✨feels✨
       </p>
-      <br/>
       <p>
         I have since worked on several gaming
         <router-link to="/">projects</router-link>
@@ -27,7 +25,6 @@
           href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
           href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
       </p>
-      <br/>
       <p>
         The first games I played were on GameBoy and I think it’s probably why my favourite type of games is 2D
         (especially
@@ -37,7 +34,6 @@
         game based on a mix of 93 Doom and Duke Nukem 3D. I still very much enjoyed developing it but unfortunately
         wasn't its most efficient tester.
       </p>
-      <br/>
       <p>
         When I’m not developing or playing games, I enjoy hanging out with my friends, cats, and plants. I also
         like reading, drinking tea, and pole dancing.
@@ -57,7 +53,7 @@
   flex-wrap: wrap;
 
   .pic-container {
-    width: 27%;
+    width: 35%;
     padding-right: 1%;
     padding-top: 0.5%;
 
@@ -67,8 +63,12 @@
   }
 
   .text-container {
-    width: 70%;
+    width: 63%;
     padding-left: 1%;
+
+    p {
+      padding-bottom: 1%;
+    }
   }
 }
 </style>
