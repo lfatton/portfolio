@@ -70,5 +70,19 @@
       padding-bottom: 1%;
     }
   }
+
+  @media (max-width: 793px) {
+    display: block;
+
+    .pic-container {
+      float: left;
+      padding-right: 2%;
+      width: calc(155px + (235 - 155) * ((100vw - 320px) / (793 - 320)));;
+    }
+
+    .text-container {
+      width: 100%;
+    }
+  }
 }
 </style>

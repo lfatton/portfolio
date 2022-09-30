@@ -25,5 +25,11 @@ nav {
       text-decoration: underline;
     }
   }
+
+  @media (max-width: 793px) {
+    a {
+      width: calc(115px + (138 - 115) * ((100vw - 320px) / (793 - 320)));
+    }
+  }
 }
 </style>

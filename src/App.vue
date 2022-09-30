@@ -35,5 +35,13 @@ import PageFooter from "@/components/PageFooter";
     width: 90%;
     margin: 0 auto;
   }
+
+  @media (max-width: 793px) {
+    width: 100%;
+  }
+
+  @media (max-width: 793px) {
+    font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (793 - 320)));
+  }
 }
 </style>
