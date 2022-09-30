@@ -6,10 +6,10 @@
         {{detail.text}}
       </li>
     </div>
-    <div class="image-container">
+    <div class="image-container space-bottom">
       <img :src="getImgSrc(project.images[0])" :alt="project.name"/>
     </div>
-    <div class="description" v-html="project.description"/>
+    <div class="description space-bottom" v-html="project.description"/>
     <div class="image-container">
       <img :src="getImgSrc(project.images[1])" :alt="project.name"/>
     </div>
@@ -76,6 +76,10 @@ function getImgSrc(image) {
 
   img {
     max-width: 100%;
+  }
+
+  .details, .space-bottom {
+    padding-bottom: 3%;
   }
 
   .video-wrapper {

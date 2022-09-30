@@ -34,12 +34,10 @@ const projects = projectsData
 
   .languages-used {
     font-size: 13px;
-    color: @secondary-text-color;
+    color: @text-color;
     display: block;
     padding-top: 0.5%;
   }
-
-
 
   &:first-of-type {
     padding-top: 0;

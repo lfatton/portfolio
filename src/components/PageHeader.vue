@@ -26,13 +26,14 @@ header {
     h1 {
       text-align: left;
       padding-bottom: 0;
-      font-weight: 200;
+      font-weight: 400;
+      line-height: normal;
     }
 
     .subtitle {
-      color: @secondary-text-color;
-      font-style: italic;
+      color: @text-color;
       font-size: 16px;
+      font-weight: 300;
     }
   }
 }

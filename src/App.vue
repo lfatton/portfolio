@@ -18,9 +18,9 @@ import PageFooter from "@/components/PageFooter";
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: @primary-text-color;
+  color: @text-color;
   background-color: @primary-background-color;
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -32,7 +32,7 @@ import PageFooter from "@/components/PageFooter";
   }
 
   > main, footer, header {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
   }
 }

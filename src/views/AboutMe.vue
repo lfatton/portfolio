@@ -57,7 +57,7 @@
   flex-wrap: wrap;
 
   .pic-container {
-    width: 30%;
+    width: 27%;
     padding-right: 1%;
     padding-top: 0.5%;
 
@@ -67,7 +67,7 @@
   }
 
   .text-container {
-    width: 68%;
+    width: 70%;
     padding-left: 1%;
   }
 }
