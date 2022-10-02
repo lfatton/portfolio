@@ -1,14 +1,20 @@
-import {createRouter, createWebHistory} from "vue-router"
+import {createRouter, createWebHashHistory} from "vue-router"
 import HomePage from "../views/HomePage"
 import AboutMe from "../views/AboutMe"
 
 const routes = [
-    { path: "/", component: HomePage },
-    { path: "/AboutMe", component: AboutMe }
+    {
+        path: "/",
+        component: HomePage,
+    },
+    {
+        path: "/AboutMe",
+        component: AboutMe,
+    }
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes
 })
 
