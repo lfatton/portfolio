@@ -21,7 +21,7 @@
         <router-link to="/">projects</router-link>
         both for school and fun, and also been employed as a full-stack developer during 3 years in a Swiss tech
         company.
-        I’m currently looking for work in the industry, don’t hesitate to take a look at my <a
+        I’m currently looking for work in the gaming industry, don’t hesitate to take a look at my <a
           href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
           href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
       </p>
