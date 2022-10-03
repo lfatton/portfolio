@@ -30,7 +30,7 @@
         (especially
         ones like Stardew Valley ♥), even if I enjoy the occasional Horizon or Assassin’s Creed game. The genre I’m
         least
-        comfortable with is probably FPS, which is quite ironic as the project I’ve spent most time on (6 months) was a
+        comfortable with is probably FPS, which is quite ironic as the project I’ve spent the most time on (6 months) was a
         game based on a mix of 93 Doom and Duke Nukem 3D. I still very much enjoyed developing it but unfortunately
         wasn't its most efficient tester.
       </p>
