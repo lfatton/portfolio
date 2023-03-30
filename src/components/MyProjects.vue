@@ -9,6 +9,7 @@
       <span class="setting">
             {{ project.setting }}
       </span>
+      <a class="game-url" v-if="project.gameUrl" :href=project.gameUrl target="_blank">play</a>
     </h2>
     <div class="languages-used">
       {{ project.language }}
@@ -31,6 +32,18 @@ const projects = projectsData
 .project-container {
   padding: 5% 0;
   border-bottom: 1px solid @primary-border-color;
+
+  .game-url {
+    float: right;
+    font-weight: 700;
+    color: #192833;
+    background-color: #FEF6B2;
+    text-decoration-line: none;
+    padding: 0 1%;
+    margin-right: 6%;
+    border-radius: 6%;
+    text-transform: uppercase;
+  }
 
   .languages-used {
     font-size: 13px;

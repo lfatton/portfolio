@@ -1,5 +1,5 @@
 <template>
-  <div v-if="project.name == 'Doom-Nukem'" class="project-content-container doom">
+  <div v-if="project.name === 'Doom-Nukem'" class="project-content-container doom">
     <div class="summary" v-html="project.summary" />
     <div class="details">
       <li v-for="detail in project.details" :key="detail.id">
@@ -7,11 +7,11 @@
       </li>
     </div>
     <div class="image-container space-bottom">
-      <img :src="getImgSrc(project.images[0])" :alt="project.name"/>
+      <img :src="getImgSrc(project.images[0].name)" :alt="project.name"/>
     </div>
     <div class="description space-bottom" v-html="project.description"/>
     <div class="image-container">
-      <img :src="getImgSrc(project.images[1])" :alt="project.name"/>
+      <img :src="getImgSrc(project.images[1].name)" :alt="project.name"/>
     </div>
     <div class="video-wrapper" v-if="project.video">
       <iframe width="100%" height="100%"
@@ -22,7 +22,24 @@
               allowfullscreen/>
     </div>
   </div>
-  <div v-else-if="project.name == 'Fractol'" class="project-content-container fractol">
+  <div v-else-if="project.name === 'Scop'" class="project-content-container scop">
+    <div class="description" v-html="project.description"/>
+    <div class="details">
+      <li v-for="detail in project.details" :key="detail.id">
+        {{detail.text}}
+      </li>
+    </div>
+    <div class="images-container">
+      <div class="image-container two-pics">
+        <img :src="getImgSrc('scop-lotus')" :alt="project.name"/>
+        <img :src="getImgSrc('scop-monkey')" :alt="project.name"/>
+      </div>
+      <div class="image-container one-pic">
+        <img :src="getImgSrc('scop-woman')" :alt="project.name"/>
+      </div>
+    </div>
+  </div>
+  <div v-else-if="project.name === 'Fractol'" class="project-content-container fractol">
     <div class="description" v-html="project.description"/>
     <div class="details">
       <li v-for="detail in project.details" :key="detail.id">
@@ -31,7 +48,7 @@
     </div>
     <div class="images-container">
       <div class="image-container" v-for="img in project.images" :key="img.id">
-        <img :src="getImgSrc(img)" :alt="project.name"/>
+        <img :src="getImgSrc(img.name)" :alt="project.name"/>
       </div>
     </div>
   </div>
@@ -43,7 +60,7 @@
       </li>
     </div>
     <div class="image-container" v-for="img in project.images" :key="img.id">
-      <img :src="getImgSrc(img)" :alt="project.name"/>
+      <img :src="getImgSrc(img.name)" :alt="project.name"/>
     </div>
     <div class="video-wrapper" v-if="project.video">
       <iframe width="100%" height="100%"
@@ -61,8 +78,8 @@ const props = defineProps(['project'])
 
 console.log(props.project)
 
-function getImgSrc(image) {
-  return require("../assets/images/" + image.name + ".png")
+function getImgSrc(imageName) {
+  return require("../assets/images/" + imageName + ".png")
 }
 </script>
 
@@ -95,7 +112,7 @@ function getImgSrc(image) {
     }
   }
 
-  &.fractol {
+  &.fractol, &.scop {
     .images-container {
       display: flex;
       flex-wrap: wrap;
@@ -103,7 +120,17 @@ function getImgSrc(image) {
       gap: 5px;
 
       .image-container {
+        display: flex;
         width: 49%;
+
+        &.two-pics {
+          width: 44%;
+          flex-direction: column;
+          justify-content: space-between;
+        }
+        &.one-pic {
+          width: 52%;
+        }
       }
     }
   }
