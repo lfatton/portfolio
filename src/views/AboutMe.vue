@@ -53,7 +53,7 @@
   flex-wrap: wrap;
 
   .pic-container {
-    width: 35%;
+    width: 30%;
     padding-right: 1%;
     padding-top: 0.5%;
 
@@ -68,6 +68,12 @@
 
     p {
       padding-bottom: 1%;
+    }
+  }
+
+  @media (min-width: 1550px) {
+    .pic-container {
+      width: 35%;
     }
   }
 
