@@ -26,9 +26,9 @@
           href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
       </p>
       <p>
-        The first games I played were on GameBoy and I think it’s probably why my favourite type of games is 2D
+        The first games I played were on GameBoy and I think it’s probably why one of my favourite type of games is 2D
         (especially
-        ones like Stardew Valley ♥), even if I enjoy the occasional Horizon or Assassin’s Creed game. The genre I’m
+        ones like Stardew Valley ♥), even if I'm equally fond of story-driven action RPG such as Horizon Zero Dawn. The genre I’m
         least
         comfortable with is probably FPS, which is quite ironic as the project I’ve spent the most time on (6 months) was a
         game based on a mix of 93 Doom and Duke Nukem 3D. I still very much enjoyed developing it but unfortunately
