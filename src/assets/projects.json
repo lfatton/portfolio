@@ -14,7 +14,7 @@
       },
       {
         "id": "2",
-        "text": "worked on the raycasting engine, HUD, gameplay mechanics & map editor"
+        "text": "worked on the ray-casting engine, HUD, gameplay mechanics & map editor"
       }
     ],
     "video": "https://www.youtube.com/embed/Rt0gt9E8iJc",
@@ -60,6 +60,40 @@
   {
     "id": "3",
     "type": "game",
+    "setting": "UPsi Jam 2023",
+    "name": "Terminal Velocity: Sharkinator 2000",
+    "language": "Unreal 5",
+    "description": "A 3D FPS platform game. The goal is to shoot on the floor and walls to make your way through the level and to the top while avoiding the sharks.",
+    "details": [
+      {
+        "id": "1",
+        "text": "made in 42 hours with a team of 4 people (4 devs)"
+      },
+      {
+        "id": "2",
+        "text": "the given theme was 'it's not supposed to do that', this is why you cannot kill sharks with your guns, the game menu is a tad misleading and sometimes you can even go through walls and crash the game :)"
+      },
+      {
+        "id": "3",
+        "text": "worked on the sharks and their AI, player health management, game menu and victory screen"
+      }
+    ],
+    "url": "https://github.com/Minimata/UpsiJam2023",
+    "gameUrl": "https://ashisia.itch.io/terminal-velocity-sharkinator-2000",
+    "images": [
+      {
+        "id": "1",
+        "name": "TVS1"
+      },
+      {
+        "id": "2",
+        "name": "TVS2"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "game",
     "setting": "Epic Game Jam 2021",
     "name": "Trombi",
     "language": "JavaScript / PixiJS",
@@ -81,36 +115,6 @@
       {
         "id": "1",
         "name": "trombi1"
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "type": "game",
-    "setting": "UPsi Jam 2022",
-    "name": "Croquettes Not Included",
-    "language": "Godot Engine / GDScript",
-    "description": "A small management game. The goal is to herd your cats (more appear as time passes) by teleporting them in the photography studio to take their picture.",
-    "details": [
-      {
-        "id": "1",
-        "text": "made in 42 hours with a team of 3 people (3 devs)"
-      },
-      {
-        "id": "2",
-        "text": "made-to-look-like-drawn-by-8-year-old-kid assets done by us :)"
-      },
-      {
-        "id": "3",
-        "text": "mainly worked on the camera, HUD, and cat actions"
-      }
-    ],
-    "url": "https://github.com/lfatton/UpsiJam22",
-    "gameUrl": "https://mattdirty.itch.io/croquettes-not-included",
-    "images": [
-      {
-        "id": "1",
-        "name": "CNI1"
       }
     ]
   },
