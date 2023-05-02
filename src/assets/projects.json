@@ -78,16 +78,13 @@
         "text": "worked on the sharks and their AI, player health management, game menu and victory screen"
       }
     ],
+    "video": "https://www.youtube.com/embed/Pe1jS198Lho",
     "url": "https://github.com/Minimata/UpsiJam2023",
     "gameUrl": "https://ashisia.itch.io/terminal-velocity-sharkinator-2000",
     "images": [
       {
         "id": "1",
         "name": "TVS1"
-      },
-      {
-        "id": "2",
-        "name": "TVS2"
       }
     ]
   },
