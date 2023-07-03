@@ -2,6 +2,32 @@
   {
     "id": "1",
     "type": "game",
+    "setting": "Ouat Studios game",
+    "name": "Aku: Rebirth of Shadows",
+    "language": "C# / Unity",
+    "description": "A 2D platformer game project, in development since 2019 and nominated in the 2022 Pro Helvetia’s <a href='https://swissgames.ch/2023/02/09/she-got-game-nominated-participants/' target='_blank'>She Got Game selection</a>",
+    "details": [
+      {
+        "id": "1",
+        "text": "joined the project last May as the new lead developer"
+      },
+      {
+        "id": "2",
+        "text": "mainly worked since on gameplay mechanics ameliorations (e.g. refactor of player's and enemies' movements and animations, scene transitions) and a small demo"
+      }
+    ],
+    "video": "https://www.youtube.com/embed/ZywBJ2YRxNg",
+    "url": "https://ouatstudios.net/",
+    "images": [
+      {
+        "id": "1",
+        "name": "aku"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "type": "game",
     "setting": "42 School Project",
     "name": "Doom-Nukem",
     "language": "C99 / SDL2",
@@ -31,7 +57,7 @@
     ]
   },
   {
-    "id": "2",
+    "id": "3",
     "type": "game",
     "setting": "Epic Game Jam 2019",
     "name": "MoonWalker",
@@ -58,7 +84,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "4",
     "type": "game",
     "setting": "UPsi Jam 2023",
     "name": "Terminal Velocity: Sharkinator 2000",
@@ -89,7 +115,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "5",
     "type": "game",
     "setting": "Epic Game Jam 2021",
     "name": "Trombi",
@@ -116,7 +142,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": "6",
     "type": "graphical",
     "setting": "42 School Project",
     "name": "Scop",
@@ -153,7 +179,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "7",
     "type": "graphical",
     "setting": "42 School Project",
     "name": "Fractol",
