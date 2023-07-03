@@ -5,7 +5,7 @@
     "setting": "Ouat Studios game",
     "name": "Aku: Rebirth of Shadows",
     "language": "C# / Unity",
-    "description": "A 2D platformer game project, in development since 2019 and nominated in the 2022 Pro Helvetia’s <a href='https://swissgames.ch/2023/02/09/she-got-game-nominated-participants/' target='_blank'>She Got Game selection</a>",
+    "description": "A 2D platformer game project, in development since 2019 and nominated in the 2022 Pro Helvetia’s She Got Game <a href='https://swissgames.ch/2023/02/09/she-got-game-nominated-participants/' target='_blank'>selection</a>.",
     "details": [
       {
         "id": "1",
@@ -13,7 +13,7 @@
       },
       {
         "id": "2",
-        "text": "mainly worked since on gameplay mechanics ameliorations (e.g. refactor of player's and enemies' movements and animations, scene transitions) and a small demo"
+        "text": "mainly worked since on gameplay mechanics ameliorations (e.g. refactor of player's and enemies' movements and animations, scene transitions, spawner, etc.) and a small demo"
       }
     ],
     "video": "https://www.youtube.com/embed/ZywBJ2YRxNg",
