@@ -5,10 +5,10 @@
       <img src="@/assets/images/louise.jpg" alt="picture"/>
     </div>
     <div class="text-container">
-      <p>
-        Hi and welcome 💫
-      </p>
       <div class="middle-aligned">
+        <p>
+          Hi and welcome 💫
+        </p>
         <p>
           I’m Louise (she/her) and I have been interested in computer science ever since I took an extra credit class
           learning
@@ -28,12 +28,12 @@
           When I’m not developing or playing games, I enjoy hanging out with my friends, cats, and plants. I also
           like reading, drinking tea, and pole dancing.
         </p>
+        <p>
+          Don't hesitate to take a look at my <a
+            href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
+            href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
+        </p>
       </div>
-      <p class="bottom-aligned">
-        Don't hesitate to take a look at my <a
-          href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
-          href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
-      </p>
     </div>
   </div>
 </template>
@@ -59,11 +59,11 @@
   }
 
   .text-container {
-    width: 63%;
+    width: 55%;
     padding-left: 1%;
 
     p {
-      padding-bottom: 1%;
+      padding-bottom: 3%;
     }
 
     @media (min-width: 794px) {
@@ -73,15 +73,6 @@
         position: absolute;
         top: 50%;
         transform: translate(0, -50%);
-
-        p {
-          padding-bottom: 5%;
-        }
-      }
-
-      .bottom-aligned {
-        position: absolute;
-        bottom: 0;
       }
     }
   }
