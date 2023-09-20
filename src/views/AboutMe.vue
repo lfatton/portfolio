@@ -8,35 +8,31 @@
       <p>
         Hi and welcome 💫
       </p>
-      <p>
-        I’m Louise (she/her) and I have been interested in computer science ever since I took an extra credit class
-        learning
-        Component Pascal during my Bachelor of Arts’ degree. After obtaining my Japanese & English degree, I started
-        learning software development in <a href="https://42.fr/en/homepage/" target="_blank">42 Paris</a> in the hope
-        of
-        one day creating video games that make people feel ✨feels✨
-      </p>
-      <p>
-        I have since worked on several gaming
-        <router-link to="/">projects</router-link>
-        both for school and fun, and also been employed as a full-stack developer during 3 years in a Swiss tech
-        company.
-        I’m currently looking for work in the gaming industry, don’t hesitate to take a look at my <a
+      <div class="middle-aligned">
+        <p>
+          I’m Louise (she/her) and I have been interested in computer science ever since I took an extra credit class
+          learning
+          Component Pascal during my Bachelor of Arts degree. After obtaining my Japanese & English degree, I started
+          learning software development in <a href="https://42.fr/en/homepage/" target="_blank">42 Paris</a> in the hope
+          of
+          one day creating video games that make people feel ✨feels✨
+        </p>
+        <p>
+          I have since worked on several gaming
+          <router-link to="/">projects</router-link>
+          both for school and fun, and also been employed as a .NET developer during 3 years in a Swiss tech
+          company.
+          I’m currently a game programmer at <a href="https://ouatstudios.net/">OuatStudios</a>.
+        </p>
+        <p>
+          When I’m not developing or playing games, I enjoy hanging out with my friends, cats, and plants. I also
+          like reading, drinking tea, and pole dancing.
+        </p>
+      </div>
+      <p class="bottom-aligned">
+        Don't hesitate to take a look at my <a
           href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
           href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
-      </p>
-      <p>
-        The first games I played were on GameBoy and I think it’s probably why one of my favourite type of games is 2D
-        (especially
-        ones like Stardew Valley ♥), even if I'm equally fond of story-driven action RPG such as Horizon Zero Dawn. The genre I’m
-        least
-        comfortable with is probably FPS, which is quite ironic as the project I’ve spent the most time on (6 months) was a
-        game based on a mix of 93 Doom and Duke Nukem 3D. I still very much enjoyed developing it but unfortunately
-        wasn't its most efficient tester.
-      </p>
-      <p>
-        When I’m not developing or playing games, I enjoy hanging out with my friends, cats, and plants. I also
-        like reading, drinking tea, and pole dancing.
       </p>
     </div>
   </div>
@@ -68,6 +64,25 @@
 
     p {
       padding-bottom: 1%;
+    }
+
+    @media (min-width: 794px) {
+      position: relative;
+
+      .middle-aligned {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+
+        p {
+          padding-bottom: 5%;
+        }
+      }
+
+      .bottom-aligned {
+        position: absolute;
+        bottom: 0;
+      }
     }
   }
 

@@ -6,6 +6,9 @@
     <a class="github" href="https://github.com/lfatton" target="_blank">
       <font-awesome-icon icon="fa-brands fa-square-github" size="xl" />
     </a>
+    <a class="itch" href="https://itch.io/profile/ashisia" target="_blank">
+      <font-awesome-icon icon="fa-brands fa-itch-io" size="xl" />
+    </a>
     <a class="linkedin" href="https://www.linkedin.com/in/louise-fatton" target="_blank">
       <font-awesome-icon icon="fa-brands fa-linkedin" size="xl" />
     </a>
