@@ -26,12 +26,10 @@
         </p>
         <p>
           When I’m not developing or playing games, I enjoy hanging out with my friends, cats, and plants. I also
-          like reading, drinking tea, and pole dancing.
+          like reading, drinking tea, and climbing.
         </p>
         <p>
-          Don't hesitate to take a look at my <a
-            href="../../static/Resume_Louise_Fatton.pdf" target="_blank">resume</a> and/or <a
-            href="mailto:louise.fatton@hotmail.fr">get in touch</a>.
+          If you have any questions or just want to talk, feel free to <a href="mailto:louise.fatton@hotmail.fr">contact me</a>!
         </p>
       </div>
     </div>
