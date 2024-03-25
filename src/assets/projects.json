@@ -117,27 +117,27 @@
   {
     "id": "5",
     "type": "game",
-    "setting": "Epic Game Jam 2021",
-    "name": "Trombi",
-    "language": "JavaScript, PixiJS / Browser",
-    "description": "This bullet hell is set in an office. You embody a tie, with either the default pattern or a pattern based on a screenshot from your webcam, and try to work you way up to the final boss, who may or may not have been based on <a href=\"https://en.wikipedia.org/wiki/Office_Assistant\" target=\"_blank\">Word Office Assistant Clippy</a>.",
+    "setting": "Upsi Jam 2024",
+    "name": "Congined In Nightmares",
+    "language": "GDScript, Godot / Browser",
+    "description": "In this top-down shooter, you follow Tammy who's trying to survive through the night.",
     "details": [
       {
         "id": "1",
-        "text": "made in 2 days with a team of 6 people (5 devs & 1 game artist)"
+        "text": "made in 2 days with a team of 3 devs on the given theme 'confined'"
       },
       {
         "id": "2",
-        "text": "mainly worked on gameplay mechanics"
+        "text": "mainly worked on UI (menus and HUD) and some gameplay mechanics (time system + one-eyed mob)"
       }
     ],
-    "video": "https://www.youtube.com/embed/YLVJnlIoV3I",
-    "url": "https://github.com/m-conti/EpicGameJam2021",
-    "gameUrl": "https://www.epicgamejam.com/games/trombi",
+    "video": "https://youtu.be/ZPdieOG7wBM",
+    "url": "https://github.com/MattDirty/upsi4",
+    "gameUrl": "https://ashisia.itch.io/confined-in-nightmares",
     "images": [
       {
         "id": "1",
-        "name": "trombi1"
+        "name": "cin1"
       }
     ]
   },
